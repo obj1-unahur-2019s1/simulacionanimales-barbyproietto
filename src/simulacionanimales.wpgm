@@ -9,16 +9,9 @@ program animales {
 	 * agregamos personajes
 	 */ 
 	var animalActual = new Vaca()
-	game.addVisual(animalActual)
-	game.removeVisual(animalActual)
-
 	/*
 	 * configuraciones de teclado
 	 */
-	 
-	 if animalActual = new Vaca()
-		 
-	 
 	 keyboard.c().onPressDo({ animalActual.comer(12) })
 	 keyboard.p().onPressDo({ game.say(animalActual, animalActual.peso().toString()) })	
 	 keyboard.s().onPressDo({
@@ -42,7 +35,7 @@ program animales {
 	 	animalActual.position(animalActual.position().right(1))
 	 })
 	 keyboard.left().onPressDo({
-	 	animalActual.position(animalActual.position().right(1))
+	 	animalActual.position(animalActual.position().left(1))
 	 })
 	/*
 	 * arrancamos el juego
